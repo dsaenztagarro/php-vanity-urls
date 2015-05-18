@@ -1,0 +1,26 @@
+{
+
+  "name": "php-zf2-vanity-urls",
+  "description": "php-zf2-vanity-urls",
+  "type": "library",
+  "license": "Apache-2.0",
+
+  "homepage": "http://github.com/dsaenztagarro",
+
+  "require": {
+    "php": ">=5.3.23",
+    "zendframework/zendframework": "~2.4"
+  },
+
+  "require-dev": {
+    "zendframework/zftool": "dev-master",
+    "zendframework/zend-developer-tools": "dev-master",
+    "phpmd/phpmd" : "1.5.*",
+    "phpunit/phpunit": "3.7.*",
+    "phpunit/dbunit": "1.3.*",
+    "pdepend/pdepend": "1.1.3",
+    "squizlabs/php_codesniffer": "1.*",
+    "ext-tokenizer": "*",
+    "ext-xdebug": "*"
+  }
+}
